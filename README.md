@@ -4,4 +4,4 @@ Filtering is implemented in a cascading style, with low-pass, band-pass, and hig
 
 Filter coefficients are defined in PluginProcessing.h with the actual processing implemented in PluginProcessor.cpp <br>
 
-PluginProcessor.cpp contains a convolution helper function that is called in the main callback function. <br>
+PluginProcessor.cpp contains a convolution helper function that is called in the main callback function: processBlock. <br>
